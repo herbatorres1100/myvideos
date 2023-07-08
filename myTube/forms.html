@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Tube Video Page</title>
+    <meta name="myTube" content="videos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    
+  </head>
+  <body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="/pages/collection_one.html">Collection 1</a>
+      <a href="/pages/collection_two.html"">Collection 2</a>
+      <a href="/pages/collection_three.html">Collection 3</a>
+    </nav>
+  </header><br>
+  <section>
+    <h1>Add New Video</h1>
+   <forms class="inputs">
+    <label for="video"><strong>Video Title</strong></label><br>
+    <input 
+      type'text" 
+      id="video" 
+      name="video"
+      placeholder="Input value"
+      >
+      <br><br>
+
+    <label for="Descritpion"><strong>Description</strong></label><br>
+    <textarea 
+      rows="5"  
+      cols="30"
+      placeholder="Text area Comment"></textarea><br><br>
+
+    <label for="file"><strong>Video</strong></label><br>
+    <input type="file" id="file" name="file"><br><br>
+
+    <label for="collection"></label>
+    <select id="collection" name="collection">
+      <option disabled selected hidden>Choose Collection</option>
+      <option>Collection 1</option>
+      <option>Collection 2</option>
+      <option>Collection 3</option>
+    </select><br><br>
+
+    <input type="radio" id="public" name="select" value="HTML">
+    <label for="public">Public</label>
+
+    <input type="radio" id="private" name="select" value="HTML">
+    <label for="private">Private</label><br><br>
+
+    <input type="submit">
+  </forms>
+  </section>
+
+  
+  <hr>
+  <footer>
+    <p>&copy: Copyright"</p>
+  </footer>
+  </body>
+  
+</html>
